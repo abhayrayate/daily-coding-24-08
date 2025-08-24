@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 15-DataJPA-One-To-Many-App-practice
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: tiger
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
